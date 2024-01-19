@@ -3,7 +3,8 @@ class MockPost {
   final String userId;
   final String title;
   final String body;
-  final List<String> commentIds;
+  // should be list of Ids below
+  int commentIds;
 
   MockPost({
     required this.postId,
